@@ -1,0 +1,2 @@
+OTP is ${OTP} for forgot password at INFoLNET on userID: ${UserID}. Valid till 2hrs. Do not share OTP for security reasons.
+${HelpDeskName}

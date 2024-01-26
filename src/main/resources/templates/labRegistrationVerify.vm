@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Author" content="zervicio.com" />
+		<meta http-equiv="Version" content="1.0" />
+		<title>INFoLNET</title>
+		<style type="text/css">
+		.sthb{ margin-left:5px;padding-top:0px;}
+		.sthb li{ padding-top:0px;list-style-image:url(https://infolnet.fssai.gov.in/infolnet/uploaded/infolnet_newslettler.png);list-style-type:none;font-family: Verdana, Arial, Helvetica, sans-serif;font-size:11px;color:#363636;padding-left:5px;text-decoration:none;font-weight:normal;text-decoration:none;margin-top: 0px;margin-right: 0px;margin-bottom: 0px;line-height:25px;font-weight:bold;}
+		.sthb li a{ font-family: Arial, Helvetica, sans-serif;font-size:12px;color:#363636;line-height:25px;text-decoration:none;}
+		.sthb li a:hover{ text-decoration:underline;}
+		.style5 { color: #EE1B0F; font-weight: bold;}
+		.style6 { color: #22891F; font-weight: bold;}
+		</style>
+	</head>
+
+	<!-- start of template -->
+	<body>
+		<table width="700" border="0" align="center" cellpadding="0" cellspacing="0" bgcolor="#FBFBFB"  style="border:7px solid #DDE4ED;">
+			<tr>
+				<td height="100" colspan="2" valign="bottom" style="background-image:url(https://infolnet.fssai.gov.in/infolnet/uploaded/infolnet_newslettler.png); height:120px;"></td>
+			</tr>
+			<tr>
+				<td height="40" colspan="2" valign="top" style="background-image:url(https://infolnet.fssai.gov.in/infolnet/uploaded/infolnet_mail_header.png); height:40px; line-height:25px; background-repeat:no-repeat; color:#df0303; text-align:center; font-size:11px; font-weight:bold; font-family:Arial, Helvetica, sans-serif; ">
+				<div id="msg"><marquee direction="right" width="500" scrollamount="1" scrolldelay="50" behavior="alternate"></marquee></div></td>
+			</tr>
+			<tr>
+				<td colspan="2" valign="top" ><table width="700" border="0" cellspacing="0" cellpadding="0">
+				<tr>
+						<td width="489" valign="top" style="padding-left:8px; padding-top:7px;"><table width="685" border="0" cellpadding="0" cellspacing="0">
+						<tr>
+							<td valign="top"  style="margin-top:-10px;padding-left:8px; font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11.5px;color:#363636;text-align:justify;padding-top:7px; line-height:18px;">Date : ${sSysDate} &nbsp;&nbsp; Time : ${sSysTime} </b></center><br><br></td>
+						</tr>
+
+						<tr>
+							<td style="padding-left:8px;background-repeat:no-repeat;line-height:25px;font-family:Verdana,Arial,Helvetica,sans-serif;font-size:14px;color:#363636;font-weight:bold"><span style="color:#c21b0b">Dear&nbsp;Sir/Madam</span> </td>
+						</tr>
+
+						<tr>
+						<td valign="top"  style="margin-top:-10px;padding-left:8px; font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11.5px;color:#363636;text-align:justify;padding-top:7px; line-height:18px;">${Message}<br/><br/>Lab Name: <b>${labName}</b><br/>Request By: <b>${labAdminName}</b><br/><br/>Kindly check your INFoLNET account for more details. </td>
+						</tr>
+						
+						<tr>
+							<td valign="top"  >
+
+								<table width="100%" border="0" cellspacing="0" cellpadding="0">
+									<tr>
+										<td valign="top" style="margin-top:-10px;padding-left:8px;font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11.5px;color:#363636;text-align:justify;padding-top:7px; line-height:18px; ">
+										<br/>Thanks & Regards,<BR><B>${HelpDeskName}</B>
+										<br/><br/>This is an automatically generated email. <font color="red">Please do not reply to this email.</font>
+										<br/>
+										</td>
+									</tr>
+								</table>
+							</td>
+						</tr>
+						</table></td>
+				</tr>
+				</table></td>
+			</tr>
+			<tr>
+			<td colspan="2" style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11.5px;color:#363636;line-height:20px;text-align:justify; padding-left:15px;padding-right:7px;"> <strong style="font-weight:bold;color: #FF0000;"><hr size=1></td>
+			</tr>
+			<tr>
+
+			<td width="100%" style="font-family:Verdana, Arial, Helvetica, sans-serif;font-size:11.5px;color:#363636;line-height:20px;text-align:right; padding-right:7px;">&copy; ${CopyRightYear} ${CopyRightName} All rights reserved</td>
+			</tr>
+		</table>
+		<!-- end of template -->
+	</body>
+</html>

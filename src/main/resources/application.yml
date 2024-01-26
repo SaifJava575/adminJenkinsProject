@@ -1,0 +1,10 @@
+eureka:
+  instance:
+    # See blog post for details, modify /etc/hosts --eureka1
+    leaseRenewalIntervalInSeconds: ${LEASE_RENEWAL_INTERVAl_IN_SECONDS:5}
+    leaseExpirationDurationInSeconds: ${LEASE_EXPIRATION_DURATIONIN_SECONDS:12}
+  client:
+    serviceUrl:
+      defaultZone: ${EUREKA_DEFAULT_ZONE:http://eureka1:8761/eureka/}
+    register-with-eureka: ${REGISTER_WITH_EUREKA:true} 
+    fetch-registry: ${FETCH_REGISTRY:true}
